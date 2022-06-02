@@ -18,4 +18,4 @@ USER ${NB_USER}
 
 ADD environment.yml environment.yml
 
-RUN conda env update --file environment.yml
+RUN conda env update --prefix /srv/conda/envs/notebook --file environment.yml
