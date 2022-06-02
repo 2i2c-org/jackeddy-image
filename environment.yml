@@ -8,6 +8,7 @@ dependencies:
   - pip
   - pip:
     - jupyterlab-git
+    - jupyterlab-favorites
     - jupyter-desktop-server
     - jupyter-syncthing-proxy
     - gh-scoped-creds
