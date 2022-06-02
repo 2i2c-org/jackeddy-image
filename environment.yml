@@ -10,3 +10,4 @@ dependencies:
     - jupyterlab-git
     - jupyter-desktop-server
     - jupyter-syncthing-proxy
+    - gh-scoped-creds
