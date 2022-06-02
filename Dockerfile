@@ -9,8 +9,8 @@ RUN echo "Checking for 'apt.txt'..." \
         ; if test -f "apt.txt" ; then \
         apt-get update --fix-missing > /dev/null \
         # Read apt.txt line by line, and execute apt-get install -y for each line in apt.txt
-        && xargs -a apt.txt apt-get install -y \
-        && apt-get clean \
+        && xargs -a apt.txt apt-get install -y > /dev/null\
+        && apt-get clean > /dev/null \
         && rm -rf /var/lib/apt/lists/* \
         ; fi
 
