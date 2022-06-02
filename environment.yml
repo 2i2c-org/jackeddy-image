@@ -5,5 +5,7 @@ channels:
 
 dependencies:
   - jupyter_contrib_nbextensions==0.5.1
+  - websockify
   - pip:
     - jupyterlab-git
+    - jupyter-desktop-server
