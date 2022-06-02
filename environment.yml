@@ -5,10 +5,10 @@ dependencies:
   - jupyter_contrib_nbextensions==0.5.1
   - websockify
   - syncthing
+  - jupyterlab-favorites
+  - jupyterlab-git
+  - gh-scoped-creds
   - pip
   - pip:
-    - jupyterlab-git
-    - jupyterlab-favorites
     - jupyter-desktop-server
     - jupyter-syncthing-proxy
-    - gh-scoped-creds
