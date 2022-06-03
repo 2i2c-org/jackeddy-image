@@ -8,6 +8,13 @@ dependencies:
   - jupyterlab-favorites
   - jupyterlab-git
   - gh-scoped-creds
+
+  - intake
+  - intake-esm
+  - intake-geopandas
+  - intake-stac
+  - intake-xarray
+
   - pip
   - pip:
     - jupyter-desktop-server
