@@ -5,10 +5,20 @@ dependencies:
   - jupyter_contrib_nbextensions==0.5.1
   - websockify
   - syncthing
+  - cartopy
+  - ipympl
+  - jupyter-book
+  - markdown-it-py
+  - mdit-py-plugins
+  - myst-nb
+  - myst-parser
+  - sphinx
+  - sphinx-jupyterbook-latex  
+  - nbdime  
   - jupyterlab-favorites
   - jupyterlab-git
+  - jupyterlab-geojson
   - gh-scoped-creds
-
   - intake
   - intake-esm
   - intake-geopandas
