@@ -6,6 +6,7 @@ dependencies:
   - websockify
   - syncthing
   - cartopy
+  - gcsfs
   - ipympl
   - jupyter-book
   - markdown-it-py
